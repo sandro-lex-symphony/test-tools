@@ -11,7 +11,7 @@ pythoncfg = {
 javacfg = {
     'Injection': ['Runtime', 'ProcessBuilder', 'CommandLine','zookeeper.Shell'],
     'Path Traversal': ['getAbsolutePath'],
-    'Deserialization': ['XMLDecoder', 'XStream','readObject','readObjectNoData','readResolve','readExternal','InvocationHandle','ObjectInputStream','java.lang.reflect.InvocationHandler','MethodHandler.invoke','Object.finalize'],
+    'Deserialization': ['XMLDecoder', 'XStream','readObject','readObjectNoData','readResolve','readExternal','InvocationHandle','ObjectInputStream','java.lang.reflect.InvocationHandler','MethodHandler.invoke','Object.finalize', 'Serializable'],
     'Weak Random': ['Java.util.Random'],
     'URL Injection': ['url=', 'href='],
     'XML External Entity (XXE)': ['DocumentBuilder','XMLInputFactory','SAXReader','SAXParser','SAXBuilder','XMLReader','DocumentHelper','XMLInputFactory','XMLStreamReader'],
