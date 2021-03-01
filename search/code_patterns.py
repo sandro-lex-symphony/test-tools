@@ -37,6 +37,7 @@ generalcfg = {
 cfg = {
     'python': pythoncfg,
     'java': javacfg,
+    'js': jscfg,
     'generic': generalcfg
 }
 
@@ -52,8 +53,8 @@ def search(type, path):
 
 
 #search(javacfg, '/etc/passwd')
-path = sys.argv[1]
-type = sys.argv[2]
+type = sys.argv[1]
+path = sys.argv[2]
 
 
 search(type, path)
